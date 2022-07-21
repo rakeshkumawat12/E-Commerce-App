@@ -1,0 +1,50 @@
+.container2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.imgContainer {
+    height: 100%;
+}
+
+.image {
+    height: 80%;
+    margin-left: 250px;
+}
+
+.infocontainer {
+    margin-top: 6%;
+    margin-left: -161px;
+}
+
+.title {
+    font-size: 70%;
+}
+
+.desc {
+    margin: 50px 0px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+}
