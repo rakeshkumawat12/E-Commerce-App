@@ -1,0 +1,51 @@
+.container0 {
+    display: flex;
+}
+
+.left1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.desc1 {
+    margin: 20px 0px;
+}
+
+.center1 {
+    flex: 1;
+    padding: 20px;
+}
+
+.title4 {
+    margin-bottom: 30px;
+}
+
+.list1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listItem {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.right1 {
+    flex: 1;
+    padding: 20px;
+}
+
+.contactItem {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.payment {
+    width: 50%;
+}
