@@ -1,7 +1,7 @@
 import { Send } from "@material-ui/icons";
-import './newletter.css'
+import './newsletter.css'
 
-export default function Newletter() {
+export default function Newsletter() {
     return (
         <div className="container9">
             <h1 className="title">Newsletter</h1>
