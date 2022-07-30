@@ -3,7 +3,8 @@ import './cart.css'
 import Announcement from "../../components/announcement/Announcement";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-
+import h1 from "../../Assets/h1.png"
+import h2 from "../../Assets/h2.png"
 
 export default function Cart() {
     return (
@@ -11,7 +12,7 @@ export default function Cart() {
             <Navbar />
             <Announcement />
             <div className="wrapper11">
-                <h1 className="title4">YOUR BAG</h1>
+                <h1 className="title4">YOUR HOUSE</h1>
                 <div className="top11">
                     <button className="topButton1">CONTINUE SHOPPING</button>
                     <div className="topTexts">
@@ -24,44 +25,16 @@ export default function Cart() {
                     <div className="info55">
                         <div className="product22">
                             <div className="productDetail1">
-                                <img className="image6" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" alt="img"/>
+                                <img className="image6" src={h1} alt="img"/>
                                 <div className="details22">
                                     <span>
-                                        <b>Product:</b> JESSIE THUNDER SHOES
+                                        <b>Product:</b> Romex Headphone
                                     </span>
                                     <span>
-                                        <b>ID:</b> 93813718293
+                                        <b>ID:</b> IT67352
                                     </span>
                                     <div className="productColor1" color="black" />
-                                    <span>
-                                        <b>Size:</b> 37.5
-                                    </span>
-                                </div>
-                            </div>
-                            <div className="productDetail1">
-                                <div className="productAmountContainer">
-                                    <Add />
-                                    <div className="productAmount">2</div>
-                                    <Remove />
-                                </div>
-                                <div className="productPrice">$ 30</div>
-                            </div>
-                        </div>
-                        <hr />
-                        <div className="product22">
-                            <div className="productDetail1">
-                                <img className="image6" src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" alt="img"/>
-                                <div className="details22">
-                                    <span>
-                                        <b>Product:</b> HAKURA T-SHIRT
-                                    </span>
-                                    <span>
-                                        <b>ID:</b> 93813718293
-                                    </span>
-                                    <div className="productColor1" color="gray" />
-                                    <span>
-                                        <b>Size:</b> M
-                                    </span>
+
                                 </div>
                             </div>
                             <div className="productDetail1">
@@ -70,7 +43,30 @@ export default function Cart() {
                                     <div className="productAmount">1</div>
                                     <Remove />
                                 </div>
-                                <div className="productPrice">$ 20</div>
+                                <div className="productPrice">$ 130</div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="product22">
+                            <div className="productDetail1">
+                                <img className="image6" src={h2} alt="img"/>
+                                <div className="details22">
+                                    <span>
+                                        <b>Product:</b> Thunder Headphone
+                                    </span>
+                                    <span>
+                                        <b>ID:</b> ID89765
+                                    </span>
+                                    <div className="productColor1" color="gray" />
+                                </div>
+                            </div>
+                            <div className="productDetail1">
+                                <div className="productAmountContainer">
+                                    <Add />
+                                    <div className="productAmount">1</div>
+                                    <Remove />
+                                </div>
+                                <div className="productPrice">$ 120</div>
                             </div>
                         </div>
                     </div>
@@ -78,7 +74,7 @@ export default function Cart() {
                         <h1 className="summaryTitle1">ORDER SUMMARY</h1>
                         <div className="summaryItem1">
                             <span>Subtotal</span>
-                            <span>$ 80</span>
+                            <span>$ 250</span>
                         </div>
                         <div className="summaryItem1">
                             <span>Estimated Shipping</span>
@@ -90,7 +86,7 @@ export default function Cart() {
                         </div>
                         <div className="summaryItem1" type="total">
                             <span>Total</span>
-                            <span>$ 80</span>
+                            <span>$ 250</span>
                         </div>
                         <div className="button16">CHECKOUT NOW</div>
                     </div>

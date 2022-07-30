@@ -9,7 +9,7 @@ export default function Login() {
           <input placeholder="username" />
           <input placeholder="password" />
           <button className="button21">LOGIN</button>
-          <a className="link">DO NOT YOU REMEMBER THE PASSWORD?</a>
+          <a className="link">FORGET PASSWORD?</a>
           <a className="link">CREATE A NEW ACCOUNT</a>
         </form>
       </div>

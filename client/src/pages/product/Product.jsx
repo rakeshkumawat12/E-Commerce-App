@@ -1,4 +1,5 @@
 import './product.css'
+import h1 from "../../Assets/h1.png"
 import { Add, Remove } from "@material-ui/icons";
 import Announcement from "../../components/announcement/Announcement";
 import Footer from "../../components/footer/Footer";
@@ -12,36 +13,14 @@ export default function Product() {
             <Announcement />
             <div className='wrapper23'>
                 <div className='imgContainer'>
-                    <img src="https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt='img'/>
+                    <img src={h1} alt='img' />
                 </div>
                 <div className='infoContainer'>
-                    <h1>Denim Jumpsuit</h1>
+                    <h1>MAAT BLACK EDITION</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                        venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
-                        iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
-                        tristique tortor pretium ut. Curabitur elit justo, consequat id
-                        condimentum ac, volutpat ornare.
+                        There is no better justice to your playlist than MAAT BLACK EDITION boAt. If low battery is your enemy, the 15HRS non-stop playback is here to rightfully combat that. Feel the power rising up in your veins– just like the Dark Knight, as you indulge in your playlist with its 40mm dynamic drivers. Versatile just like the Batman, MAAT BLACK EDITION are equipped with super adaptive headbands for comfort. Be your batman as you get ready to rule with MAAT BLACK EDITION
                     </p>
-                    <span className='price23'>$ 20</span>
-                    <div className='filterContainer'>
-                        <div className='filter'>
-                            <span className='filterTitle'>Color</span>
-                            <div className='filterColor' color="black" />
-                            <div className='filterColor' color="darkblue" />
-                            <div className='filterColor' color="gray" />
-                        </div>
-                        <div className='filter'>
-                            <span className='filterTitle'>Size</span>
-                            <select className='filterSize'>
-                                <option>XS</option>
-                                <option>S</option>
-                                <option>M</option>
-                                <option>L</option>
-                                <option>XL</option>
-                            </select>
-                        </div>
-                    </div>
+                    <span className='price23'>$ 120</span>
                     <div className='addContainer'>
                         <div className='amountContainer'>
                             <Remove />

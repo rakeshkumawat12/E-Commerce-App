@@ -4,7 +4,7 @@ import Categories from '../../components/categories/Categories'
 import Navbar from '../../components/navbar/Navbar'
 import Slider from '../../components/slider/Slider'
 import Products from '../../components/products/Products'
-import Newletter from '../../components/newletter/Newletter'
+import Newsletter from '../../components/newsletter/Newsletter'
 import Footer from '../../components/footer/Footer'
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <Slider />
       <Categories/>
       <Products />
-      <Newletter/>
+      <Newsletter/>
       <Footer/>
     </div>
   )

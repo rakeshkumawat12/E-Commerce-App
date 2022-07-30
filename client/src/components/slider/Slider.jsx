@@ -1,4 +1,5 @@
 import './slider.css'
+import h12 from '../../Assets/h12.png'
 
 export default function Slider() {
     return (
@@ -6,11 +7,11 @@ export default function Slider() {
             <div className="wrapper" >
                 <div className="slide">
                     <div className="imgContainer">
-                        <img className="image" src="https://i.ibb.co/DG69bQ4/1.png" alt='img' />
+                        <img className="image" src={h12} alt='img' />
                     </div>
                     <div className="infocontainer">
-                        <h1 className="title">SUMMER SALE</h1>
-                        <p className="desc">DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS</p>
+                        <h1 className="title">Biggest Flash Sale</h1>
+                        <p className="desc">upto 75% OFF across all categories</p>
                         <button className="button">SHOW NOW</button>
                     </div>
                 </div>
