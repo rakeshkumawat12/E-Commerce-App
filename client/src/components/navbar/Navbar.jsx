@@ -21,7 +21,7 @@ export default function Navbar() {
                 <div className="right2">
                     <Link to='/register' className="menuItem2">REGISTER</Link>
                     <Link to='/login' className="menuItem2">SIGN IN</Link>
-                    <Link className="menuItem" to="/cart">
+                    <Link className="menuItem2" to="/cart">
                         <Badge badgeContent={2} color="primary">
                             <ShoppingCartOutlined />
                         </Badge>

@@ -30,11 +30,10 @@
 
 .button5 {
     text-decoration: none;
-    color: black;
-    border: none;
     padding: 10px;
     background-color: white;
     color: gray;
     cursor: pointer;
     font-weight: 600;
+    border: 1px solid black;
 }

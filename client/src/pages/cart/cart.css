@@ -23,9 +23,6 @@
     color: white;
 }
 
-
-.topTexts10 {}
-
 .topText10 {
     text-decoration: underline;
     cursor: pointer;
@@ -118,10 +115,10 @@ hr {
 }
 
 .button10 {
-    width: 100%;
     padding: 10px;
     background-color: black;
     color: white;
     font-weight: 600;
-    left: 0%;
+    display: flex;
+    justify-content: center;
 }

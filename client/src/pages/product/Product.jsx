@@ -13,11 +13,11 @@ export default function Product() {
             <Announcement />
             <div className='wrapper12'>
                 <div className='imgContainer12'>
-                    <img src={h1} alt='img' />
+                    <img className='img12' src={h1} alt='img' />
                 </div>
                 <div className='infoContainer12'>
-                    <h1>MAAT BLACK EDITION</h1>
-                    <p>
+                    <h1 className='h112'>MAAT BLACK EDITION</h1>
+                    <p className='p12'>
                         There is no better justice to your playlist than MAAT BLACK EDITION boAt. If low battery is your enemy, the 15HRS non-stop playback is here to rightfully combat that. Feel the power rising up in your veins– just like the Dark Knight, as you indulge in your playlist with its 40mm dynamic drivers. Versatile just like the Batman, MAAT BLACK EDITION are equipped with super adaptive headbands for comfort. Be your batman as you get ready to rule with MAAT BLACK EDITION
                     </p>
                     <span className='price12'>$ 120</span>
