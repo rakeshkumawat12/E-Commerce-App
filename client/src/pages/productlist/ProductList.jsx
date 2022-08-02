@@ -10,11 +10,11 @@ export default function ProductList() {
     <div>
       <Navbar />
       <Announcement />
-      <h1 className='title31'>Headphones</h1>
-      <div className='filterContainer31'>
-        <div className='filter31'>
-          <span className='filterText31'>Filter Products:</span>
-          <select className='select31'>
+      <h1 className='title13'>Headphones</h1>
+      <div className='filterContainer13'>
+        <div className='filter13'>
+          <span className='filterText13'>Filter Products:</span>
+          <select className='select13'>
             <option disabled selected>
               Color
             </option>
@@ -25,7 +25,7 @@ export default function ProductList() {
             <option>Yellow</option>
             <option>Green</option>
           </select>
-          <select className='select31'>
+          <select className='select13'>
             <option disabled selected>
               Size
             </option>
@@ -36,9 +36,9 @@ export default function ProductList() {
             <option>XL</option>
           </select>
         </div>
-        <div className='filter31'>
-          <span className='filterText31'>Sort Products:</span>
-          <select className='select31'>
+        <div className='filter13'>
+          <span className='filterText13'>Sort Products:</span>
+          <select className='select13'>
             <option selected>Newest</option>
             <option>Price (asc)</option>
             <option>Price (desc)</option>

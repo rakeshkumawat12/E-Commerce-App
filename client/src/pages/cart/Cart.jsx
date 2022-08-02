@@ -11,84 +11,84 @@ export default function Cart() {
         <div>
             <Navbar />
             <Announcement />
-            <div className="wrapper11">
-                <h1 className="title4">YOUR HOUSE</h1>
-                <div className="top11">
-                    <button className="topButton1">CONTINUE SHOPPING</button>
-                    <div className="topTexts">
-                        <span className="topText">Shopping Bag(2)</span>
-                        <span className="topText">Your Wishlist (0)</span>
+            <div className="wrapper10">
+                <h1 className="title10">YOUR HOUSE</h1>
+                <div className="top10">
+                    <button className="topButton10">CONTINUE SHOPPING</button>
+                    <div className="topTexts10">
+                        <span className="topText10">Shopping Bag(2)</span>
+                        <span className="topText10">Your Wishlist (0)</span>
                     </div>
-                    <button className="topButton1" type="filled">CHECKOUT NOW</button>
+                    <button className="topButton10" type="filled">CHECKOUT NOW</button>
                 </div>
-                <div className="bottom1">
-                    <div className="info55">
-                        <div className="product22">
-                            <div className="productDetail1">
-                                <img className="image6" src={h1} alt="img"/>
-                                <div className="details22">
+                <div className="bottom10">
+                    <div className="info10">
+                        <div className="product10">
+                            <div className="productDetail10">
+                                <img className="image10" src={h1} alt="img"/>
+                                <div className="details10">
                                     <span>
                                         <b>Product:</b> Romex Headphone
                                     </span>
                                     <span>
                                         <b>ID:</b> IT67352
                                     </span>
-                                    <div className="productColor1" color="black" />
+                                    <div className="productColor10" color="black" />
 
                                 </div>
                             </div>
-                            <div className="productDetail1">
-                                <div className="productAmountContainer">
+                            <div className="productDetail10">
+                                <div className="productAmountContainer10">
                                     <Add />
-                                    <div className="productAmount">1</div>
+                                    <div className="productAmount10">1</div>
                                     <Remove />
                                 </div>
-                                <div className="productPrice">$ 130</div>
+                                <div className="productPrice10">$ 130</div>
                             </div>
                         </div>
                         <hr />
-                        <div className="product22">
-                            <div className="productDetail1">
-                                <img className="image6" src={h2} alt="img"/>
-                                <div className="details22">
+                        <div className="product10">
+                            <div className="productDetail10">
+                                <img className="image10" src={h2} alt="img"/>
+                                <div className="details10">
                                     <span>
                                         <b>Product:</b> Thunder Headphone
                                     </span>
                                     <span>
                                         <b>ID:</b> ID89765
                                     </span>
-                                    <div className="productColor1" color="gray" />
+                                    <div className="productColor10" color="gray" />
                                 </div>
                             </div>
-                            <div className="productDetail1">
-                                <div className="productAmountContainer">
+                            <div className="productDetail10">
+                                <div className="productAmountContainer10">
                                     <Add />
-                                    <div className="productAmount">1</div>
+                                    <div className="productAmount10">1</div>
                                     <Remove />
                                 </div>
-                                <div className="productPrice">$ 120</div>
+                                <div className="productPrice10">$ 120</div>
                             </div>
                         </div>
                     </div>
-                    <div className="summary1">
-                        <h1 className="summaryTitle1">ORDER SUMMARY</h1>
-                        <div className="summaryItem1">
+                    <div className="summary10">
+                        <h1 className="summaryTitle10">ORDER SUMMARY</h1>
+                        <div className="summaryItem10">
                             <span>Subtotal</span>
                             <span>$ 250</span>
                         </div>
-                        <div className="summaryItem1">
+                        <div className="summaryItem10">
                             <span>Estimated Shipping</span>
                             <span>$ 5.90</span>
                         </div>
-                        <div className="summaryItem1">
+                        <div className="summaryItem10">
                             <span>Shipping Discount</span>
                             <span>$ -5.90</span>
                         </div>
-                        <div className="summaryItem1" type="total">
+                        <div className="summaryItem10" type="total">
                             <span>Total</span>
                             <span>$ 250</span>
                         </div>
-                        <div className="button16">CHECKOUT NOW</div>
+                        <div className="button10">CHECKOUT NOW</div>
                     </div>
                 </div>
             </div>

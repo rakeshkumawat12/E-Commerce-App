@@ -5,7 +5,7 @@ import './products.css'
 
 export default function Products() {
     return (
-        <div className='container7'>
+        <div className='container6'>
             {popularProducts.map((item) => (
                 <Product item={item} key={item.id} />
             ))}

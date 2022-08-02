@@ -1,20 +1,20 @@
-.wrapper11 {
+.wrapper10 {
     padding: 20px;
 }
 
-.title4 {
+.title10 {
     font-weight: 300;
     text-align: center;
 }
 
-.top11 {
+.top10 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 }
 
-.topButton1 {
+.topButton10 {
     padding: 10px;
     font-weight: 600;
     cursor: pointer;
@@ -24,52 +24,52 @@
 }
 
 
-.topTexts {}
+.topTexts10 {}
 
-.topText {
+.topText10 {
     text-decoration: underline;
     cursor: pointer;
     margin: 0px 10px;
 }
 
-.bottom1 {
+.bottom10 {
     display: flex;
     justify-content: space-between;
 }
 
-.info55 {
+.info10 {
     flex: 3;
 }
 
-.product22 {
+.product10 {
     display: flex;
     justify-content: space-between;
 }
 
-.productDetail1 {
+.productDetail10 {
     flex: 2;
     display: flex;
 }
 
-.image6 {
+.image10 {
     width: 200px;
 }
 
-.details22 {
+.details10 {
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.productColor1 {
+.productColor10 {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: black;
 }
 
-.productDetail1 {
+.productDetail10 {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -77,18 +77,18 @@
     justify-content: center;
 }
 
-.productAmountContainer {
+.productAmountContainer10 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.productAmount {
+.productAmount10 {
     font-size: 24px;
     margin: 5px;
 }
 
-.productPrice {
+.productPrice10 {
     font-size: 30px;
     font-weight: 200;
 }
@@ -99,7 +99,7 @@ hr {
     height: 1px;
 }
 
-.summary1 {
+.summary10 {
     flex: 1;
     border: 0.5px solid lightgray;
     border-radius: 10px;
@@ -107,17 +107,17 @@ hr {
     height: 50vh;
 }
 
-.summaryTitle1 {
+.summaryTitle10 {
     font-weight: 200;
 }
 
-.summaryItem1 {
+.summaryItem10 {
     margin: 24px 0px;
     display: flex;
     justify-content: space-between;
 }
 
-.button16 {
+.button10 {
     width: 100%;
     padding: 10px;
     background-color: black;

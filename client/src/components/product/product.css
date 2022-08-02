@@ -1,4 +1,4 @@
-.container6 {
+.container7 {
   flex: 1;
   margin: 5px;
   min-width: 280px;
@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.circle {
+.circle7 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -18,7 +18,7 @@
   position: absolute;
 }
 
-.info {
+.info7 {
   opacity: 0;
   width: 100%;
   height: 100%;
@@ -34,16 +34,16 @@
   cursor: pointer;
 }
 
-.info:hover {
+.info7:hover {
   opacity: 1;
 }
 
-.image6 {
+.image7 {
   height: 75%;
   z-index: 2;
 }
 
-.icon {
+.icon7 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -55,7 +55,7 @@
   transition: all 0.5s ease;
 }
 
-.icon:hover {
+.icon7:hover {
   background-color: #e9f5f5;
     transform: scale(1.1);
 }

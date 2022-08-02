@@ -1,4 +1,4 @@
-.container22 {
+.container14 {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(rgba(255, 255, 255, 0.5),
@@ -10,35 +10,35 @@
     justify-content: center;
 }
 
-.wrapper22 {
+.wrapper14 {
     width: 40%;
     padding: 20px;
     background-color: white;
 }
 
-.title22 {
+.title14 {
     font-size: 24px;
     font-weight: 300;
 }
 
-.form22 {
+.form14 {
     display: flex;
     flex-wrap: wrap;
 }
 
-input {
+.input14 {
     flex: 1;
     min-width: 40%;
     margin: 20px 10px 0px 0px;
     padding: 10px;
 }
 
-.agreement22 {
+.agreement14 {
     font-size: 12px;
     margin: 20px 0px;
 }
 
-.button22 {
+.button14 {
     width: 40%;
     border: none;
     padding: 15px 20px;

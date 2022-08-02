@@ -8,26 +8,26 @@ import Newsletter from "../../components/newsletter/Newsletter";
 
 export default function Product() {
     return (
-        <div className='container23'>
+        <div className='container12'>
             <Navbar />
             <Announcement />
-            <div className='wrapper23'>
-                <div className='imgContainer'>
+            <div className='wrapper12'>
+                <div className='imgContainer12'>
                     <img src={h1} alt='img' />
                 </div>
-                <div className='infoContainer'>
+                <div className='infoContainer12'>
                     <h1>MAAT BLACK EDITION</h1>
                     <p>
                         There is no better justice to your playlist than MAAT BLACK EDITION boAt. If low battery is your enemy, the 15HRS non-stop playback is here to rightfully combat that. Feel the power rising up in your veins– just like the Dark Knight, as you indulge in your playlist with its 40mm dynamic drivers. Versatile just like the Batman, MAAT BLACK EDITION are equipped with super adaptive headbands for comfort. Be your batman as you get ready to rule with MAAT BLACK EDITION
                     </p>
-                    <span className='price23'>$ 120</span>
-                    <div className='addContainer'>
-                        <div className='amountContainer'>
+                    <span className='price12'>$ 120</span>
+                    <div className='addContainer12'>
+                        <div className='amountContainer12'>
                             <Remove />
-                            <span className='amount23'>1</span>
+                            <span className='amount12'>1</span>
                             <Add />
                         </div>
-                        <button className='button23'>ADD TO CART</button>
+                        <button className='button12'>ADD TO CART</button>
                     </div>
                 </div>
             </div>

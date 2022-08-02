@@ -5,13 +5,13 @@
     position: relative;
 }
 
-.image1 {
+.image5 {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.info1 {
+.info5 {
     position: absolute;
     top: 0;
     left: 0;
@@ -23,12 +23,14 @@
     justify-content: center;
 }
 
-.title1 {
+.title5 {
     color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
-.button1 {
+.button5 {
+    text-decoration: none;
+    color: black;
     border: none;
     padding: 10px;
     background-color: white;
