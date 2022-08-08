@@ -3,22 +3,22 @@
 #### ReactJS E-Commerce App 
 
 # Home Page
-![Screenshot](/src/Assets/home.png)
+![Screenshot](/client/src/Assets/home.png)
 
 # Register Page
-![Screenshot](/src/Assets/register.png)
+![Screenshot](/client/src/Assets/register.png)
 
 # SignIn Page
-![Screenshot](/src/Assets/signin.png)
+![Screenshot](/client/src/Assets/signin.png)
 
 # Product Page
-![Screenshot](/src/Assets/product.png)
+![Screenshot](/client/src/Assets/product.png)
 
 # Product List Page
-![Screenshot](/src/Assets/productlist.png)
+![Screenshot](/client/src/Assets/productlist.png)
 
 # Cart Page
-![Screenshot](/src/Assets/cart.png)
+![Screenshot](/client/src/Assets/cart.png)
 
 #  Installing
 1. Clone the latest code on the master branch
